@@ -78,11 +78,31 @@ body
 .fa:hover {
     opacity: 0.8;
 }
+
+/* Add spacing between social media icons */
 #social-media li
 {
     margin: 0 10px 0 0;
 }
 
+/*
+ * Sizing of Google maps
+ */
+.gmap_canvas
+{
+    position: relative;
+    padding-bottom: 50%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+.gmap_canvas iframe
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
 /*
  * Responsive CSS
  */
