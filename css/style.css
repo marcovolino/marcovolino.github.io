@@ -71,6 +71,7 @@ hr
     width:auto;
     margin: auto;
     display: block;
+    min-width 400px;
 }
 #bio_text
 {
@@ -137,6 +138,7 @@ min-height:50px;
    {
     float: none;
     width:auto;
+    min-width 400px;
     border:0;
     margin: auto;
     display: block;
