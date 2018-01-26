@@ -50,6 +50,23 @@ hr
     margin-top: 50px;
 }
 
+/**
+ * Button Style
+ */
+btn-primary, .btn-primary:active, .btn-primary:visited
+{
+    background: #222;
+    border-color:#222;
+    color:#9c9c9c;
+}
+
+.btn-primary:hover
+{
+    background: #222;
+    border-color:#222;
+    color:#fff;
+}
+
 /*
  * Bio
  */
@@ -58,7 +75,8 @@ hr
   overflow:hidden;
 }
 
-#bio div {
+#bio div
+{
    min-height: 200px;
    padding: 10px;
 }
@@ -90,7 +108,8 @@ hr
     border-radius: 50%;
 }
 
-tr td {
+tr td
+{
   padding-bottom: 10px;
 }
 
@@ -126,7 +145,7 @@ tr td {
 
 footer
 {
-min-height:50px;
+    min-height:50px;
 }
 
 /*
