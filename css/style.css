@@ -115,7 +115,7 @@ tr td
 }
 
 /* Add a hover effect if you want */
-.fa:hover {
+.fab:hover {
     opacity: 0.8;
 }
 
