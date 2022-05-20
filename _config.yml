@@ -16,3 +16,11 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 sass:
     style: compressed
 exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]
+
+
+# Collection Management
+collections_dir: collections
+collections:
+  papers:
+    output: true
+    permalink: /:collection/:name
