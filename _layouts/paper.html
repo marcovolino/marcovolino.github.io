@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+
+	<!-- Head -->
+	{% include head.html %}
+
+
+    <body>
+		<h1> {{site.title }} </h1>
+		<p>{{ site.description }}</p>
+		
+		<b> {{ page.title}} </b> <br>
+		<i> {{ page.authors}} </i> <br>
+		<p> {{ page.venue}} - {{page.year}} </p>
+		
+		{% if page.paper-url %}
+		<a href="{{page.paper-url}}" target="_blank">PDF</a>
+		{% endif%}
+		
+        <!-- the content goes here -->
+		{{ content | smartify }}
+    </body>
+</html>

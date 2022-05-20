@@ -1,5 +1,4 @@
-#Theme
-theme: jekyll-theme-cayman
+#Theme theme: jekyll-theme-cayman
 
 # Site title
 title: Interesting Papers
@@ -15,7 +14,7 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 # Use this for production
 sass:
     style: compressed
-exclude: [ README.md]
+exclude: [ README.md, LICENSE]
 
 
 # Collection Management

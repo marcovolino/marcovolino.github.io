@@ -1,9 +1,12 @@
 ---
-title: HVH: Learning a Hybrid Neural Volumetric Representation for Dynamic Hair Performance Capture
-authors: Ziyan Wang, Giljoo Nam, Tuur Stuyck, Stephen Lombardi, Michael Zollhoefer, Jessica Hodgins, Christoph Lassner
-venue: cvpr
+layout: paper
+title: 'HVH: Learning a Hybrid Neural Volumetric Representation for Dynamic Hair Performance Capture'
+authors: 'Ziyan Wang, Giljoo Nam, Tuur Stuyck, Stephen Lombardi, Michael Zollhoefer, Jessica Hodgins, Christoph Lassner'
+venue: 'CVPR'
 year: 2022
-paper-url: https://arxiv.org/abs/2112.06904
+paper-url: 'https://arxiv.org/abs/2112.06904'
+topic: 'Hair'
+
 ---
 
 

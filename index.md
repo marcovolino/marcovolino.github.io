@@ -4,8 +4,8 @@ layout: default
 
 
 {% for paper in site.papers %}
-<h2>{{ paper.title }}</h2>
-<i>{{ paper.authors }}</i><br>
-<b>{{ paper.venue }} {{ paper.year }}</b>
-<p>{{ paper.content | markdownify }}</p>
+<h3><a href="{{ paper.url }}"> {{ paper.title }}  </a></h3>
+<i>{{ paper.authors }}</i> <br/>
+<p>{{ paper.venue }} {{ paper.year }}</p>
+<hr>
 {% endfor %}
