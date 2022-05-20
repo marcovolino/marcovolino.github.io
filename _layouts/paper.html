@@ -1,28 +1,39 @@
-
 <!DOCTYPE html>
 <html>
 
 	<!-- Head -->
 	{% include head.html %}
 
+	<!-- Body -->
+	<body>
+	
+		<!-- Header -->
+		{% include header.html %}
+		
+		<!--SITE CONTENT START-->
+		<main class="container">
+		
+			<h2> {{ page.title}} </h2> <br>
+			<i> {{ page.authors}} </i> <br>
+			<p> {{ page.venue}} {{page.year}} </p>
 
-<body>
-    <h1> {{site.title }} </h1>
-    <p>{{ site.description }}</p>
+			{% if page.paper-url %}
+			<a href="{{page.paper-url}}" target="_blank">[PDF]</a>
+			{% endif%}
 
-    <b> {{ page.title}} </b> <br>
-    <i> {{ page.authors}} </i> <br>
-    <p> {{ page.venue}} - {{page.year}} </p>
+			{% if page.project-url %}
+			<a href="{{page.project-url}}" target="_blank">[Project]</a>
+			{% endif%}
 
-    {% if page.paper-url %}
-    <a href="{{page.paper-url}}" target="_blank">[PDF]</a>
-    {% endif%}
-
-    {% if page.project-url %}
-    <a href="{{page.project-url}}" target="_blank">[Project]</a>
-    {% endif%}
-
-    <!-- the content goes here -->
-    {{ content | smartify }}
-</body>
+			<!-- the content goes here -->
+			{{ content | smartify }}
+			
+		</main>
+			
+			
+		<!-- footer -->
+		{% include footer.html %}
+			
+	</body>
+	
 </html>

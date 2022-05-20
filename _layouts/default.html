@@ -1,20 +1,25 @@
-
-
 <!DOCTYPE html>
 <html>
 	
-	<!-- Head -->
+	<!-- Header -->
 	{% include head.html %}
 	
 	<!-- Body -->
     <body>
     
-		<h1> {{site.title }} </h1>
-		<p>{{ site.description }}</p>
+		<!-- Head -->
+		{% include header.html %}
     
-        <!-- the content goes here -->
-		{{ content | smartify }}
+		<!--SITE CONTENT START-->
+        <main class="container">
+        
+			<!-- the content goes here -->
+			{{ content | smartify }}
     
-    
+		</main>
+
+		<!-- footer -->
+		{% include footer.html %}
+		
     </body>
 </html>
