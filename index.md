@@ -1,6 +1,13 @@
 ---
 layout: default
 ---
+
+
+{% for paper in site.papers %}
+  <h2>{{ paper.name }} - {{ paper.position }}</h2>
+  <p>{{ paper.content | markdownify }}</p>
+{% endfor %}
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
