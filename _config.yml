@@ -1,1 +1,15 @@
+#Theme
 theme: jekyll-theme-cayman
+
+# Site title
+title: Interesting Papers
+description: A collection of papers and notes related to my work
+
+# Handling Reading
+safe: true
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Use this for production
+sass:
+    style: compressed
+exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]
