@@ -1,11 +1,10 @@
 #Theme theme: jekyll-theme-cayman
 
 # Site title
-title: Interesting Stuff
-description: A collection of interesting stuff related to my work
+title: Marco Volino
+description: A collection of interesting stuff
 
-#
-url: "https://marcovolino.github.io/interesting-papers"
+#url: "https://marcovolino.github.io/"
 
 #permalinks
 permalink: pretty
@@ -23,6 +22,18 @@ exclude: [ README.md, LICENSE]
 # Collection Management
 collections_dir: collections
 collections:
+  news:
+    output: false
+  projects:
+    output: false
+  publications:
+    output: false
+  service:
+    output: false
+  experiences:
+    output: false
+  education:
+    output: false
   papers:
     output: true
     permalink: /:collection/:name
