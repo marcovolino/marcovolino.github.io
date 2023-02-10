@@ -1,0 +1,35 @@
+
+menu:
+  - title: Research
+    url: research
+  - title: Jobs
+    url: jobs
+#  - title: Teaching
+#    url: teaching
+  - title: CV
+    url: cv
+  - title: News
+    url: "#news"
+  - title: Contact
+    url: "#contact"
+
+social:
+  - name: px500
+    link: "https://500px.com/marcovolino"
+    icon: fab fa-500px
+  - name: facebook
+    link: "https://www.facebook.com/marcovolino"
+    icon: fab fa-facebook
+  - name: scholar
+    link: "https://scholar.google.com/citations?user=Le5SVZYAAAAJ&hl=en"
+    icon: fab fas fa-graduation-cap
+  - name: linkedin
+    link: "https://www.linkedin.com/in/marcovolino/"
+    icon: fab fa-linkedin
+  - name: twitter
+    link: "https://twitter.com/marcovolino"
+    icon: fab fa-twitter
+  - name: orcid
+    link: "https://orcid.org/0000-0002-1869-9257"
+    icon: fab fa-orcid
+

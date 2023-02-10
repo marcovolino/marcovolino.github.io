@@ -37,3 +37,4 @@ collections:
   papers:
     output: true
     permalink: /:collection/:name
+

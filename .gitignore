@@ -4,5 +4,7 @@
 
 /.vs
 *.xcworkspace
- 
+*.sln
+
 /_site/
+.DS_Store

@@ -7,21 +7,20 @@
         
                 <!-- ONLINE CONTACTS -->
                 <div class="container" id="online">
-
+                    
                     <h4>Online</h4>
-                
-                    <!-- EMAIL - WORK-->
-                    <a target="_blank" href="mailto:m.volino@surrey.ac.uk"> <i class="glyphicon glyphicon-envelope"> </i> m.volino@surrey.ac.uk</a>
-                    <br>
-                                
-                    <!-- LINKED IN -->
-                    <a target="_blank" href="https://www.linkedin.com/in/marcovolino/"> <i class="glyphicon glyphicon-globe"></i> linkedin.com/in/marcovolino/</a>
-                    <br>
                     
-                    <!-- FACEBOOK -->
-                    <a target="_blank" href="https://www.facebook.com/marcovolino/"> <i class="glyphicon  glyphicon-globe"></i> facebook.com/marcovolino/</a>
-                    <br>
+                    <p>Feel free to drop me an email at <b>m [dot] volino [at] surrey [dot] ac [dot] uk</b>.</p>
                     
+                    <!-- SOCIAL MEDIA -->
+                    <div>
+                        <p>You can also find me on the following platforms:</p>
+                        <ul id ="social-media" class="list-group list-group-horizontal justify-content-center">
+                            {% for item in site.data.nav.social %}
+                            <li class="list-group-item"><a href="{{ item.link}}" target="_blank" class="{{ item.icon}}"></a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
                     
                 </div>
       
