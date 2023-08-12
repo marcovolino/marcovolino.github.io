@@ -1,5 +1,5 @@
 ---
-title: DSLR Photogrammetry Platform for Avatar Creation
+title: DSLR-based Photogrammetry Capture System for Digital Humans
 note: CVSSP, University of Surrey
 duration: June 2018 - September 2019
 image: images/project/photogrammetry.jpg
