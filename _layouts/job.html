@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    
+    <!-- Header -->
+    {% include head.html %}
+    
+    <!-- Body -->
+    <body>
+    
+        <!-- Head -->
+        {% include nav.html %}
+    
+        <!--SITE CONTENT START-->
+        <main class="container">
+                    
+            <!-- the content goes here -->
+            {{ content | smartify }}
+    
+        </main>
+
+        <!-- footer -->
+        {% include contact.html %}
+        
+        
+        <!-- footer -->
+        {% include footer.html %}
+        
+    </body>
+</html>
+

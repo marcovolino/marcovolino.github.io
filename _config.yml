@@ -35,7 +35,8 @@ collections:
   education:
     output: false
   jobs:
-    output: false
+    output: true
+    permalink: /:collection/:name
   papers:
     output: false
     permalink: /:collection/:name

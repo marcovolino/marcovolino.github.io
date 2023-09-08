@@ -1,7 +1,13 @@
 ---
+layout: job
 title: PhD Studentship in Computer Vision, Graphics and Machine Learning
-expires: 2023-07-01
+expiryDate: 2023-07-01
 ---
+<img src="/images/other/alive_banner.png" alt="" width="100%">
+
+## {{page.title}}
+
+
 Applications are invited for a fully funded PhD studentship in the <a href="https://www.surrey.ac.uk/centre-vision-speech-signal-processing" target="_blank">Centre for Vision, Speech and Signal Processing</a> (CVSSP) at the <a href="https://www.surrey.ac.uk/" target="_blank">University of Surrey</a>. The student will work at the intersection of computer vision, computer graphics and machine learning with a focus on addressing open research challenges in the creative industry. Research topics include, but are not limited to, photo-realistic human reconstruction and synthesis; multimodal neural rendering; immersive content production.
 
 The ideal candidate must be self-motivated and have a strong interest in cutting edge research. In addition, the candidate must have a strong mathematical background and programming skills (C++/Python), prior experience with computer vision and graphics, and hands-on experience with machine learning toolkits (tensorflow/pytorch) and/or 3D tools (unity/unreal/blender/maya) is desirable.  
