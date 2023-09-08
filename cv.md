@@ -2,44 +2,89 @@
 layout: default
 ---
 
-## CV
+<h2>Marco Volino</h2>
+<b>PhD, MEng</b>
+
 <div class="container" id="cv">
 
+<!-----------------------------------
+<h3>Profile</h3>
+<div class="container" id="profile">
+
+Marco Volino is a research scientist/engineer working at the intersection of computer
+vision, computer graphics and machine learning with a focus on applications in the creative industries. 
+Marco has significant experience in the design and development of both hardware and software and is proficient in a number of programming languages, development libraries and software. 
+</div>
+------------------->
+
+<!------------------------------------------------------>
+<h3>Skills</h3>
+<div class="container" id="skills">
+
+<table>
+{% for section in site.data.cv_skills %}
+
+<tr>
+    <td><b>{{ section.title }}</b></td>
+    <td>
+{% for skill in section.nested %}
+   {% if skill.url != "" %}
+        <a href="{{skill.url}}" target="_blank">{{ skill.title}}</a>
+    {% else %}
+        {{ skill.title}}
+   {% endif %}
+    &ensp;
+{% endfor %}
+    </td>
+  </tr>
+{% endfor %}
+</table>
+</div>
+
+<!------------------------------------------------------>
 <h3>Experience</h3>
 <div class="container" id="experience">
 <table>
-	<col width="150">
+    <col style="width:80%">
+    <col style="width:20%">
 	<tbody>
 		{% for experience in site.experiences reversed %}
 		<tr>
-			<td><img src="{{site.url}}/{{experience.image}}" alt="" width="100%" height="auto" /></td>
 			<td>
-				<b>{{experience.title}}</b><br>
-				<em>{{experience.institute}}</em><br>
-					{{experience.duration}}<br>
+				<span class="left"><b>{{experience.title}}</b></span><br>
+				{{experience.institute}}<br>
+                <em>{{experience.duration}}</em><br>
+                {{ experience.content | markdownify }}
 			</td>
+            <td valign="top"><img src="{{site.url}}/{{experience.image}}" alt="" width="80px" height="auto" /></td>         
 		</tr>
 		{% endfor %}
 	</tbody>
 </table>
+</div>
 
+
+<!------------------------------------------------------>
 <h3>Education</h3>
 <div class="container" id="education">
 <table>
-	<col width="150">
-	<tbody>
-		{% for experience in site.education reversed %}
-		<tr>
-			<td><img src="{{site.url}}/{{experience.image}}" alt="" width="100%" height="auto" /></td>
-			<td>
-				<b>{{experience.title}}</b><br>
-				<em>{{experience.institute}}</em><br>
-					{{experience.duration}}<br>
-			</td>
-		</tr>
-		{% endfor %}
-	</tbody>
+    <col style="width:80%">
+    <col style="width:20%">
+    <tbody>
+        {% for experience in site.education reversed %}
+        <tr>
+            <td>
+                <span class="left"><b>{{experience.title}}</b></span><br>
+                {{experience.institute}}<br>
+                <em>{{experience.duration}}</em><br>
+                {{ experience.content | markdownify }}
+            </td>
+            <td valign="top"><img src="{{site.url}}/{{experience.image}}" alt="" width="80px" height="auto" /></td>         
+        </tr>
+        {% endfor %}
+    </tbody>
 </table>
+</div>
 
 
-For a detailed CV please contact me.
+</div>

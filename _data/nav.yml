@@ -1,13 +1,13 @@
 
 menu:
-  - title: Research
-    url: research
-  - title: Jobs
-    url: jobs
-#  - title: Teaching
-#    url: teaching
   - title: CV
     url: cv
+  - title: Research
+    url: research
+#  - title: Teaching
+#    url: teaching
+  - title: Jobs
+    url: jobs
   - title: News
     url: "#news"
   - title: Contact
