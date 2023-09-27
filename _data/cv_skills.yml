@@ -1,6 +1,6 @@
  - title : "Hardware"
    nested:
-   - title: "Design/built synchronised camera arrays"
+   - title: "Design/Develop/Deployment of synchronised camera arrays"
      url: ""
    - title: "PCB design/fabrication"
      url: ""
