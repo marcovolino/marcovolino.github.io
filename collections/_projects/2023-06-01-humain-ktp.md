@@ -7,7 +7,6 @@ image: images/project/humain.png
 links:
   - name: KTP Website
     url: https://www.ktp-uk.org/
-- name: Humain Studios
+  - name: Humain Studios
     url: https://www.humain-studios.com/
-
 ---
