@@ -5,7 +5,7 @@ layout: default
 <img src="/images/other/research.png" alt="" width="100%">
 
 
-## Research
+# Research
 <div class="container" id="research">
 
 <h3>Overview</h3>
