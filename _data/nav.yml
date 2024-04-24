@@ -4,10 +4,10 @@ menu:
     url: cv
   - title: Research
     url: research
-#  - title: Teaching
-#    url: teaching
-  - title: Jobs
-    url: jobs
+  - title: Teaching
+    url: teaching
+  - title: Openings
+    url: openings
   - title: News
     url: "#news"
   - title: Contact

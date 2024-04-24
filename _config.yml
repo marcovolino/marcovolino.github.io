@@ -34,10 +34,14 @@ collections:
     output: false
   education:
     output: false
-  jobs:
+  teaching:
+    output: false
+  openings:
     output: true
     permalink: /:collection/:name
   papers:
     output: false
     permalink: /:collection/:name
-
+  blog:
+    output: true
+    permalink: /:collection/:name
