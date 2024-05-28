@@ -3,7 +3,7 @@ title: Free-viewpoint video rendering for mobile devices
 authors: J. Imber, M. Volino, J-Y, Guillemaut, S. Fenney, and A. Hilton
 venue: n Proceedings of the 6th International Conference on Computer Vision / Computer Graphics Collaboration Techniques and Applications (MIRAGE)
 year: 2013
-image: images/paper/2013_mirage_imber.png
+image: images/paper/2013-imber-mirage.png
 
 links:
  - name: Website
