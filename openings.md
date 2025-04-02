@@ -20,7 +20,7 @@ layout: default
 <h2>Previous</h2>
 <div class="container" id="jobs-closed">
 
-{% for job in site.openings %}
+{% for job in site.openings reversed%}
 {% capture date %}{{job.expiryDate | date: '%s' | plus: 0 }}{% endcapture %}
 {% if date < now %}
 <s><h4><a href="{{job.url}}">{{job.title}}</a></h4></s>
