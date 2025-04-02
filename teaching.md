@@ -1,13 +1,13 @@
 ---
 layout: default
 title: Teaching
+redirect_from: course
 ---
 
 <img src="/images/other/research.png" alt="" width="100%">
 
 # Teaching 
 I contribute to teaching in the school of <a href="https://www.surrey.ac.uk/school-computer-science-and-electronic-engineering" target="_blank">Computer Science and Electronic Engineering</a> (CSEE) on the undergraduate program in Electronic Engineering and Masters program in Artificial Inteligence. 
-
 
 <h2>Current</h2>
 <div class="container" id="current-teaching">
@@ -39,3 +39,4 @@ I contribute to teaching in the school of <a href="https://www.surrey.ac.uk/scho
         {% endif %}
     {% endfor %}
 </div>
+

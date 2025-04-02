@@ -1,8 +1,8 @@
 ---
 title: Senior Lecturer in Computer Vision and Computer Graphics
 institute: University of Surrey, UK
-duration: July 2021 - March 2025
-image: images/cv/surrey.png
+duration: April 2025 - Present
+image: images/cv/surrey_new.jpg
 ---
 
 - Research at the intersection of Computer Vision, Computer Graphics and Machine Learning with a focus on visual media production. Activities include:
