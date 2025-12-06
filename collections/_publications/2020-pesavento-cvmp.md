@@ -3,6 +3,7 @@ title: Super-Resolution Appearance Transfer for 4D Human Performance Capture
 authors: M. Pesavento, M. Volino, A. Hilton
 venue: ACM SIGGRAPH European Conference on Visual Media Production (Short)
 year: 2020
+month: 1
 image: images/paper/2020-pesavento-cvmp.png
 links:
  - name: Website

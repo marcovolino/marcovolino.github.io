@@ -3,6 +3,7 @@ title: Hybrid Skeleton Driven Surface Registration for Temporally Consistent Vol
 authors: J. Regateiro, M. Volino and A. Hilton
 venue: International Conference on 3D Vision (3DV)
 year: 2018
+month: 1
 image: images/paper/2018-regateiro-3dv.png
 links:
  - name: Website

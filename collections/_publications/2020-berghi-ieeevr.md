@@ -3,6 +3,7 @@ title: Audio-Visual Spatial Alignment Requirements of Central and Peripheral Obj
 authors: D. Berghi, H. Stenzel, M. Volino, A. Hilton, P.J.B. Jackson
 venue: IEEE Conference on Virtual Reality and 3D User Interfaces (IEEEVR)
 year: 2020
+month: 1
 image: images/paper/2020-berghi-ieeevr.png
 links:
  - name: Website

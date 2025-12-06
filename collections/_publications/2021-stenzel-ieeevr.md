@@ -3,6 +3,7 @@ title: Naturalistic audio-visual volumetric sequences dataset of sounding action
 authors: H. Stenzel, D. Berghi, M. Volino, P.J.B. Jackson
 venue: IEEE Conference on Virtual Reality and 3D User Interfaces (IEEEVR)
 year: 2021
+month: 1
 image: images/paper/2021-stenzel-ieeevr.png
 links:
  - name: Website

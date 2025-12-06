@@ -3,6 +3,7 @@ title: Light Field Video for Immersive Content Production
 authors: M. Volino, A. Mustafa J-Y. Guillemaut, A. Hilton
 venue: Real VR – Immersive Digital Reality. Lecture Notes in Computer Science, vol 11900 Springer
 year: 2020
+month: 1
 image: images/paper/2020-volino-realvr.png
 links:
  - name: Website

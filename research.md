@@ -44,22 +44,29 @@ layout: default
 <table>
 	<col width="150">
 	<tbody>
-		{% for paper in site.publications reversed%}
-		<tr>
-			<td><img src="{{site.url}}/{{paper.image}}" alt="" width="100%" height="auto" /></td>
-			<td>
-				<b>{{paper.title}}</b><br>
-				<em>{{paper.authors}}</em><br>
-					{{paper.venue}}<br>
-					{{paper.year}}<br>
-				<div class="btn-toolbar">
-					{% for link in paper.links %}
-					<a class="btn btn-primary btn-xs" target="_blank" href="{{link.url}}">{{link.name}}</a>
-					{% endfor%}
-			  </div>
-			</td>
-		</tr>
-		{% endfor %}
+    {% assign papers_by_year = site.publications | reverse %}
+    {% for paper in papers_by_year %}
+    <tr>
+        <td><img src="{{site.url}}/{{paper.image}}" alt="" width="100%" height="auto" /></td>
+        <td>
+            <b>{{paper.title}}</b><br>
+            <em>{{paper.authors}}</em><br>
+                {{paper.venue}}<br>
+                {{paper.year}}<br>
+            <div class="btn-toolbar">
+                {% if paper.headline %}<b class="highlight btn btn-primary btn-xs "> {{ paper.headline}} </b>{% endif %}
+                {% for link in paper.links %}
+                    {% assign url = link.url %}
+                    {% if url contains: '://' %}
+                        <a class="btn btn-primary btn-xs" target="_blank" href="{{link.url}}">{{link.name}}</a>
+                    {% else %}
+                        <a class="btn btn-primary btn-xs" target="_blank" href="{{site.url}}/{{link.url}}">{{link.name}}</a>
+                    {% endif %}
+                {% endfor %}
+          </div>
+        </td>
+    </tr>
+            {% endfor %}
 	</tbody>
 </table>
 </div>

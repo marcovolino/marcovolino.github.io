@@ -3,6 +3,7 @@ title: Super-Resolution Appearance Transfer for 4D Human Performances
 authors: M. Pesavento, M. Volino, A. Hilton
 venue: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops
 year: 2021
+month: 1
 image: images/paper/2021-pesavento-cvprw.png
 links:
  - name: Website

@@ -3,6 +3,7 @@ title: 'Tragic Talkers: A Shakespearean Sound- and Light-Field Dataset for Audio
 authors: D. Berghi, M. Volino, P.J.B. Jackson
 venue: European Conference on Visual Media Production
 year: 2022
+month: 1
 image: images/paper/2022-berghi-cvmp.png
 links:
  - name: Website

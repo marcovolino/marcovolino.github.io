@@ -3,6 +3,7 @@ title: 'Deep4D: A Compact Generative Representation for Volumetric Video'
 authors: J. Regateiro, M. Volino and A. Hilton
 venue: Frontiers in Virtual Reality
 year: 2022
+month: 1
 image: images/paper/2021-regateiro-fovr.png
 links:
  - name: Website
