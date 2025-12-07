@@ -57,7 +57,7 @@ layout: default
                 {% if paper.headline %}<b class="highlight btn btn-primary btn-xs "> {{ paper.headline}} </b>{% endif %}
                 {% for link in paper.links %}
                     {% assign url = link.url %}
-                    {% if url contains: '://' %}
+                    {% if url contains '://' %}
                         <a class="btn btn-primary btn-xs" target="_blank" href="{{link.url}}">{{link.name}}</a>
                     {% else %}
                         <a class="btn btn-primary btn-xs" target="_blank" href="{{site.url}}/{{link.url}}">{{link.name}}</a>

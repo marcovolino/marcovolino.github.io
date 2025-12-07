@@ -8,7 +8,7 @@ image: images/paper/2025-farooq-cvmp.png
 headline: 🥈 Honourable Mention Best Paper
 links:
  - name: Paper
-   url: https://dl.acm.org/doi/full/10.1145/3756863.3769709
+   url: https://dl.acm.org/doi/10.1145/3756863.3769707
  - name: Code (coming soon)
    url:
 ---

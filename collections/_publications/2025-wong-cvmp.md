@@ -7,9 +7,9 @@ month: 1
 image: images/paper/2025-wong-cvmp.png
 links:
  - name: Paper
-   url: docs/papers/2025-wong-cvmp.pdf
+   url: 'docs/papers/2025-wong-cvmp.pdf'
  - name: Poster
-   url: docs/posters/2025-wong-cvmp.pdf
+   url: 'docs/posters/2025-wong-cvmp.pdf'
  - name: Video
-   url: docs/videos/2025-wong-cvmp.mp4
+   url: 'docs/videos/2025-wong-cvmp.mp4'
 ---

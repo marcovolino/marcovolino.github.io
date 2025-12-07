@@ -7,6 +7,6 @@ month: 1
 image: images/paper/2025-yang-cvmp.png
 links:
  - name: Paper
-   url: docs/papers/2025-yang-cvmp.pdf
+   url: 'docs/papers/2025-yang-cvmp.pdf'
 ---
 
