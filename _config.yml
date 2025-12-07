@@ -1,10 +1,5 @@
-#Theme theme: jekyll-theme-cayman
-
 # Site title
 title: Marco Volino
-description: A collection of interesting stuff
-
-#url: "https://marcovolino.github.io/"
 
 #permalinks
 permalink: pretty
@@ -17,7 +12,6 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 sass:
     style: compressed
 exclude: [ README.md, LICENSE]
-
 
 # Collection Management
 collections_dir: collections
@@ -42,6 +36,4 @@ collections:
   papers:
     output: false
     permalink: /:collection/:name
-  blog:
-    output: true
-    permalink: /:collection/:name
+
