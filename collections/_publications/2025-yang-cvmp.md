@@ -9,4 +9,3 @@ links:
  - name: Paper
    url: 'docs/papers/2025-yang-cvmp.pdf'
 ---
-
