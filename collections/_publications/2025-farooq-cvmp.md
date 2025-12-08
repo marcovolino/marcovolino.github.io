@@ -9,6 +9,4 @@ headline: 🥈 Honourable Mention Best Paper
 links:
  - name: Paper
    url: https://dl.acm.org/doi/10.1145/3756863.3769707
- - name: Code (coming soon)
-   url:
 ---
