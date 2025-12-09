@@ -11,7 +11,7 @@ layout: default
 <h3>Overview</h3>
 <div class="container" id="overview">
 
-<p>My research interests are at the intersection of computer vision, graphics and machine learning with a focus on visual media production. Below you can find: a list of projects and publications I have been involved in; funding I have recieved; and my service to the research community.</p>
+<p>My research interests are at the intersection of computer vision, graphics and machine learning with a focus on visual media production and immersive technology. Below you can find: (i) a list of projects, funding and publications I have been involved in; people I have worked with; and my service to the research community.</p>
 </div>
 <hr>
 
