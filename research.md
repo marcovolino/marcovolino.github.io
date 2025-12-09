@@ -104,8 +104,8 @@ layout: default
             {% endfor %}
         </tbody>
     </table>    
-    </div>
-<br>
+</div>
+<hr>
 
 
 
