@@ -72,10 +72,45 @@ layout: default
 </div>
 <hr>
 
+<h3>Team</h3>
+<div class="container" id="team">
+    <p> I have been fortunate enough to work with the following people:</p>
+    <table>
+        <tbody>
+            {% assign people_sorted = site.team | sort: "duration"%}
+            {% for people in people_sorted reversed %}
+            <tr>
+                <td>
+                {% if people.linkedin %}
+                    <b><a href="{{people.linkedin}}" target="_blank">{{people.name}}</a></b>
+                {% else %}
+                <b>{{people.name}}</b>
+                {% endif %}
+                </td>
+            <td>
+                <p>{{people.duration}}</p>
+            </td>
+            </tr>
+            <tr>
+                <td>
+                <p><em>Position: {{people.position}}</em></p>
+                {% if people.thesis-url %}
+                    <p><em>Topic: <a href="{{people.thesis-url}}" target="_blank">{{people.topic}}</a></em></p>
+                {% else %}
+                    <p><em>Topic: {{people.topic}}</em></p>
+                {% endif %}
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>    
+    </div>
+<br>
+
 
 
 <h3>Service</h3>
-<div class="container" id="publications">
+<div class="container" id="service">
 <p>I have been involved in the organisation of the following conferences/meetings/workshops:</p>
 
 <table>

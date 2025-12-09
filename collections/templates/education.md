@@ -4,6 +4,3 @@ institute:
 duration:
 image:
 ---
-
-
-
