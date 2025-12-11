@@ -54,7 +54,6 @@ layout: default
                 {{paper.venue}}<br>
                 {{paper.year}}<br>
             <div class="btn-toolbar">
-                {% if paper.headline %}<b class="highlight btn btn-primary btn-xs "> {{ paper.headline}} </b>{% endif %}
                 {% for link in paper.links %}
                     {% assign url = link.url %}
                     {% if url contains '://' %}
@@ -63,6 +62,7 @@ layout: default
                         <a class="btn btn-primary btn-xs" target="_blank" href="{{site.url}}/{{link.url}}">{{link.name}}</a>
                     {% endif %}
                 {% endfor %}
+                {% if paper.headline %}<b class="highlight btn btn-primary btn-xs "> {{ paper.headline}} </b>{% endif %}
           </div>
         </td>
     </tr>
