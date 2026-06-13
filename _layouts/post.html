@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    
+    <!-- Header -->
+    {% include head.html %}
+    
+    <!-- Body -->
+    <body>
+    
+        <!-- Head -->
+        {% include nav.html %}
+    
+        <!--SITE CONTENT START-->
+        <main class="container">
+            
+            <div>
+                <h1>{{page.title}}</h1>
+                <em>Written by {{ page.author }}. Published on {{ page.date | date: "%-d %B %Y"}}</em>
+                <br>  <br>
+                {% include postnav.html %}
+
+                  <br>  <br>
+            </div>
+            
+            <!-- the content goes here -->
+            {{ content | smartify }}
+            
+            
+            <div>
+                {% include contact.html %}
+            </div>
+            
+        </main>
+        
+
+        <!-- footer -->
+        <footer>
+            <!-- footer -->
+            {% include footer.html %}
+        </footer>
+        
+    </body>
+</html>
+
