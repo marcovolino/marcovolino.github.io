@@ -1,6 +1,6 @@
 ---
 title: KTP with Humain Studios 
-note: InnovateUK Knowledge Transfer Partnerships 
+note: InnovateUK Knowledge Transfer Partnership
 duration: June 2023 - Dec 2025
 image: images/project/humain.png
 
