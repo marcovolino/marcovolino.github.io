@@ -136,21 +136,22 @@ layout: default
 </table>
 <br>
 
-<p>I have served as a reviewer for the following conferences/journals/workshops:</p>
-<ul>
-<li>ACM Transactions on Graphics (TOG)</li>
-<li>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</li>
-<li>IEEE/CVF International Conference on Computer Vision (ICCV)</li>
-<li>European Conference on Computer Vision (ECCV)</li>
-<li>International Conference on 3D Vision (3DV)</li>
-<li>ACM SIGGRAPH European Conference on Visual Media Production(CVMP)</li>
-<li>British Machine Vision Conference (BMVC)</li>
-<li>Virtual Reality & Intelligent Hardware (VRIH)</li>
-<li>Multimedia Systems (MMSJ)</li>
-<li>Computer Vision and Image Understanding (CVIU)</li>
-<li>IET Computer Vision</li>
-<li>3D Reconstruction in the Wild (3DRW)</li>
-</ul>
+<p>I have served as a reviewer for the following funders/conferences/journals/workshops:</p>
+    <ul>
+        <li>Swiss National Science Foundation</li>
+        <li>ACM Transactions on Graphics (TOG)</li>
+        <li>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</li>
+        <li>IEEE/CVF International Conference on Computer Vision (ICCV)</li>
+        <li>European Conference on Computer Vision (ECCV)</li>
+        <li>International Conference on 3D Vision (3DV)</li>
+        <li>ACM SIGGRAPH European Conference on Visual Media Production(CVMP)</li>
+        <li>British Machine Vision Conference (BMVC)</li>
+        <li>Virtual Reality & Intelligent Hardware (VRIH)</li>
+        <li>Multimedia Systems (MMSJ)</li>
+        <li>Computer Vision and Image Understanding (CVIU)</li>
+        <li>IET Computer Vision</li>
+        <li>3D Reconstruction in the Wild (3DRW)</li>
+    </ul>
 </div>
 <hr>
 
