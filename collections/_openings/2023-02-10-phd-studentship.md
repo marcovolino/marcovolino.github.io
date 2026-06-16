@@ -1,6 +1,6 @@
 ---
 layout: job
-title: PhD Studentship in Computer Vision, Graphics and Machine Learning
+title: PhD Studentship - Computer Vision, Graphics and Machine Learning
 expiryDate: 2023-07-01
 ---
 <img src="/images/other/alive_banner.png" alt="" width="100%">
