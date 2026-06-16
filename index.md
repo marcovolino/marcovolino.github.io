@@ -29,7 +29,8 @@ layout: default
 			He has led the development and delivery of the second year undergraduate module "Computer Vision and Graphics" and the MSc in AI moudule "AR, VR and the Metaverse" as well as superving both undergraduate and MSc projects, connecting students with emerging technologies in immersive media, spatial computing and AI-enabled creative production.
 		</p>
 		<p>
-			Marco also plays an active leadership role in the visual media research community, including service as CVMP Conference Co-Chair, CVMP Steering Committee member, BMVC Area Chair and co-organiser of the DynaVis workshop series on dynamic scene reconstruction. 
+			<a href="{{site.url}}/research/#service">Marco also plays an active leadership role in the visual media research community</a>, including service as CVMP Conference Co-Chair, CVMP Steering Committee member, BMVC Area Chair and co-organiser of the DynaVis workshop series on dynamic scene reconstruction. 
+			Marco also serves as a reiewer for 
 			Through his research, teaching and community leadership, he works to advance visual computing technologies that shape how future creative content is captured, represented, generated and experienced.
 		</p>
 		<br>
