@@ -1,6 +1,6 @@
 ---
 layout: job
-title: PhD Studentship - Every Body in 3D
+title: PhD Studentship - Every Body in 3D (CoSTAR)
 expiryDate: 2026-03-06
 ---
 <img src="/images/other/alive_banner.png" alt="" width="100%">
