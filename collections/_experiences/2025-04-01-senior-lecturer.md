@@ -7,7 +7,7 @@ image: images/cv/surrey_new.jpg
 
 - Research at the intersection of Computer Vision, Computer Graphics and Machine Learning with a focus on visual media production. Activities include:
   - Leadership and contribution to project funding applications
-  - Provide guidance and mentorship to a team of PhD students, fostering a collaborative and innovative research environment
+  - Guidance and mentorship to a team of PhD students, fostering a collaborative and innovative research environment
   - Management and delivery of project objectives
   
 - Teaching duties include:
@@ -16,7 +16,7 @@ image: images/cv/surrey_new.jpg
   - Pastoral care of undergraduate and professional training year students
   
 - Administrative duties include:
-  - Organisation of internal seminar program to promote an open research culture
-  - Serve as health and safety representative for specialised labs and early career researcher representative at university forums
+  - Organisation of internal seminar programme to promote an open research culture
+  - Serving as health and safety representative for specialised labs and early career researcher representative at university forums
   - Provide effective line management of support staff (maternity cover)
 

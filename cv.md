@@ -10,10 +10,10 @@ layout: default
 <!------------------------------------------------------>
 <h3>Profile</h3>
 <div class="container" id="profile">
-With over 10 years of experience in research and development, Marco Volino is a passionate research scientist and engineer with expertise at the intersection of computer vision, computer graphics and machine learning.
-To date, Marco’s work has focused on advancing the capabilities of digital content production in collaboration with creative industry partners to facilitate high-quality immersive audio-visual media experiences. 
-Marco’s work has primarily addressed challenges related to camera calibration, 3D reconstruction, pose estimation, animation, rendering, and immersive technology, such as virtual and augmented reality (AR/VR). 
-Marco has significant experience in both hardware and software development, having designed, developed and deployed a range of synchronised camera systems, and is highly proficient in a number of programming  languages, APIs, and development and software tools.
+Marco has over 10 years of experience in research and development, with expertise at the intersection of computer vision, computer graphics, and machine learning. 
+His work focuses on digital content production and immersive audio-visual media, developed in collaboration with creative industry partners.
+He has designed, developed, and deployed a range of synchronised camera systems, and is highly proficient in programming languages, APIs, development libraries, and production software tools.
+
 </div>
 
 <!------------------------------------------------------>
