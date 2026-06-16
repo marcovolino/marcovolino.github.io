@@ -1,6 +1,6 @@
 ---
 layout: job
-title: PhD Studentship Single view human reconstruction in large uncontrolled environments
+title: PhD Studentship - Single view human reconstruction in large uncontrolled environments
 expiryDate: 2025-02-2
 ---
 <img src="/images/other/alive_banner.png" alt="" width="100%">
