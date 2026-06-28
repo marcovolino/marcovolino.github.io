@@ -11,6 +11,9 @@ body
     border: 0;
     vertical-align: baseline;
     padding-top: 70px;
+    color: #222;
+    font-size: 16px;
+    line-height: 1.6;
 }
 
 /*
@@ -37,18 +40,34 @@ hr
     margin: 0 auto;
     width: 100%;
     max-width: 800px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .container p
 {
-    margin-bottom: 10px;
-    text-align: justify;
-    text-justify: inter-word;
+    margin-bottom: 12px;
+    text-align: left;
 }
 
 .container h1
 {
-    margin-top: 50px;
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 34px;
+    line-height: 1.2;
+}
+
+.container h2
+{
+    margin-top: 28px;
+}
+
+.lead
+{
+    color: #444;
+    font-size: 19px;
+    line-height: 1.45;
 }
 
 /**
@@ -104,30 +123,49 @@ hr
  */
 #bio
 {
-  overflow:hidden;
+  display: flex;
+  align-items: flex-start;
+  gap: 22px;
+  overflow: hidden;
 }
 
 #bio div
 {
-   min-height: 200px;
    padding: 10px;
 }
 
 #bio_image
 {
-    vertical-align:middle;
+    flex: 0 0 180px;
     text-align:center;
-    float:left;
-    width:auto;
-    margin: auto;
+    width: 180px;
+    margin: 0;
     display: block;
-    min-width 400px;
 }
 #bio_text
 {
-  overflow:hidden;
-  margin:10px;
-  min-height:170px;
+  flex: 1 1 auto;
+  overflow: hidden;
+  margin: 0;
+  min-width: 0;
+}
+
+.homepage-actions
+{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.news-list ul
+{
+  padding-left: 22px;
+}
+
+.news-list li
+{
+  margin-bottom: 8px;
 }
 
 .fab
@@ -144,6 +182,7 @@ tr td
 {
   padding-bottom: 10px;
   padding-right: 10px;
+  vertical-align: top;
 }
 
 /* Add a hover effect if you want */
@@ -163,7 +202,7 @@ tr td
 .gmap_canvas
 {
     position: relative;
-    padding-bottom: 50%; // This is the aspect ratio
+    padding-bottom: 50%;
     height: 0;
     overflow: hidden;
 }
@@ -186,14 +225,56 @@ footer
  */
 @media screen and (max-width: 600px)
 {
+   body
+   {
+    padding-top: 60px;
+   }
+
+   .container
+   {
+    padding-left: 14px;
+    padding-right: 14px;
+   }
+
    #bio_image
    {
-    float: none;
-    width:auto;
-    min-width 400px;
+    flex: none;
+    width: auto;
     border:0;
     margin: auto;
     display: block;
+  }
+
+  #bio
+  {
+    display: block;
+  }
+
+  #bio_text
+  {
+    overflow: visible;
+  }
+
+  .container h1
+  {
+    font-size: 30px;
+  }
+
+  table
+  {
+    width: 100%;
+  }
+
+  tr,
+  td
+  {
+    display: block;
+    width: 100% !important;
+  }
+
+  td img
+  {
+    max-width: 180px;
   }
 }
 
@@ -223,24 +304,28 @@ footer
 }
 
 
-.post-nav {
+.post-nav
+{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: $spacing-unit;
+    margin-bottom: 24px;
+}
 
-    div {
-      flex: 1 1 0;
-      
-      &:first-child {
-        padding-right: 0.5em;
-      }
-      
-      &:last-child {
-        padding-left: 0.5em;
-        text-align: right;
-      }
-    }
+.post-nav div
+{
+  flex: 1 1 0;
+}
+
+.post-nav div:first-child
+{
+  padding-right: 0.5em;
+}
+
+.post-nav div:last-child
+{
+  padding-left: 0.5em;
+  text-align: right;
 }
 
 .unsighted {
