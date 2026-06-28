@@ -3,6 +3,8 @@
         <!--SITE SETTINGS-->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+        <meta name="description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace }}">
         
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112854938-1"></script>
@@ -20,6 +22,7 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
         
         <!--ADDITIONAL CSS AND JS-->
-        <link rel="stylesheet" href="{{site.url}}/css/style.css">
+        <link rel="icon" href="{{ '/images/cv/marco.jpg' | relative_url }}">
+        <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
         
     </head>
