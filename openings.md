@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Openings
 ---
 
 <img src="/images/other/alive_banner.png" alt="" width="100%">
