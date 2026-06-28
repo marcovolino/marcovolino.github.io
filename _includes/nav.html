@@ -12,18 +12,17 @@
                     </button>
                     
                     <!-- Site Brand-->
-                    <a class="navbar-brand" href="{{site.url}}/">Marco Volino</a>
+                    <a class="navbar-brand" href="{{ '/' | relative_url }}">Marco Volino</a>
                 </div>
                 
                 <!-- Nav Links -->
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
                         {% for item in site.data.nav.menu %}
-                        <li><a href="{{site.url}}/{{item.url}}">{{item.title}}</a></li>
+                        <li><a href="{{ item.url | prepend: '/' | relative_url }}">{{item.title}}</a></li>
                         {% endfor %}
                     </ul> 
                 </div>
            </div>
         </nav>
  
-
