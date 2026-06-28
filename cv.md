@@ -6,7 +6,7 @@ image: /images/cv/marco.jpg
 ---
 
 <h2>Marco Volino</h2>
-<b>PhD, MEng</b>
+<b>PhD, MEng, FHEA</b>
 
 <div class="container" id="cv">
 
