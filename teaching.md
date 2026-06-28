@@ -1,20 +1,22 @@
 ---
 layout: default
 title: Teaching
+description: Teaching by Marco Volino at the University of Surrey in computer vision, graphics, AR, VR, the metaverse and AI for visual computing.
+image: /images/other/research.png
 redirect_from: course
 ---
 
-<img src="/images/other/research.png" alt="" width="100%">
+<img src="{{ '/images/other/research.png' | relative_url }}" alt="" width="100%">
 
 # Teaching 
-I contribute to teaching in the school of <a href="https://www.surrey.ac.uk/school-computer-science-and-electronic-engineering" target="_blank">Computer Science and Electronic Engineering</a> (CSEE) on the undergraduate program in Electronic Engineering and Masters program in Artificial intelligence (AI). 
+I contribute to teaching in the school of <a href="https://www.surrey.ac.uk/school-computer-science-and-electronic-engineering" target="_blank" rel="noopener">Computer Science and Electronic Engineering</a> (CSEE) on the undergraduate program in Electronic Engineering and Masters program in Artificial intelligence (AI). 
 
 <h2>Current</h2>
 <div class="container" id="current-teaching">
     {% for module in site.teaching reversed  %}
         {% if module.active == true %}
             <div>
-                <h4><a href="{{module.module-url}}" target="_blank">{{ module.title }} ({{module.code}})</a></h4>
+                <h4><a href="{{module.module-url}}" target="_blank" rel="noopener">{{ module.title }} ({{module.code}})</a></h4>
                 <b>Role:</b> {{module.role}} <br>
                 <b>Duration:</b> {{module.duration}} <br>
                 <b>Description:</b> {{ module.content | markdownify }}
@@ -30,7 +32,7 @@ I contribute to teaching in the school of <a href="https://www.surrey.ac.uk/scho
     {% for module in site.teaching reversed  %}
         {% if module.active == false %}
             <div>
-                <h4><a href="{{module.module-url}}" target="_blank">{{ module.title }} ({{module.code}})</a></h4>
+                <h4><a href="{{module.module-url}}" target="_blank" rel="noopener">{{ module.title }} ({{module.code}})</a></h4>
                 <b>Role:</b> {{module.role}} <br>
                 <b>Duration:</b> {{module.duration}} <br>
                 <b>Description:</b> {{ module.content | markdownify }} 
@@ -39,4 +41,3 @@ I contribute to teaching in the school of <a href="https://www.surrey.ac.uk/scho
         {% endif %}
     {% endfor %}
 </div>
-

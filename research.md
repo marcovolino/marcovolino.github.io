@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Research
+description: Research projects, publications, collaborators and community service in computer vision, graphics, digital humans, volumetric video, neural rendering and immersive media.
+image: /images/other/research.png
 ---
 
 <img src="{{ '/images/other/research.png' | relative_url }}" alt="" width="100%">

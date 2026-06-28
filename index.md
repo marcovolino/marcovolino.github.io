@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Home
-description: Marco Volino researches computer vision, computer graphics and machine learning for visual media production, digital humans, volumetric video and immersive content.
+seo_title: Marco Volino | Computer Vision and Graphics
+description: Marco Volino researches computer vision, graphics and machine learning for digital humans, volumetric video, neural rendering and immersive media.
+image: /images/cv/marco.jpg
 ---
 
 <!-- BIO SECTION -->

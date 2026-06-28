@@ -1,6 +1,8 @@
 ---
 layout: default
 title: CV
+description: Academic CV for Marco Volino, including research experience, teaching, skills, education and professional service in computer vision and graphics.
+image: /images/cv/marco.jpg
 ---
 
 <h2>Marco Volino</h2>

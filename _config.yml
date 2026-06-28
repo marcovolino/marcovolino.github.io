@@ -1,7 +1,18 @@
 # Site title
 title: Marco Volino
-description: Senior Lecturer in Computer Vision and Graphics at the University of Surrey, researching visual computing, digital humans, volumetric video, neural rendering and immersive media.
+description: Senior Lecturer in Computer Vision and Graphics at the University of Surrey, researching digital humans, volumetric video, neural rendering and immersive media.
 author: Marco Volino
+url: "https://marcovolino.github.io"
+production_url: "https://marcovolino.github.io"
+logo: /images/cv/marco.jpg
+twitter:
+  username: marcovolino
+social:
+  name: Marco Volino
+  links:
+    - https://scholar.google.com/citations?user=Le5SVZYAAAAJ
+    - https://www.linkedin.com/in/marcovolino/
+    - https://orcid.org/0000-0002-1869-9257
 
 #permalinks
 permalink: pretty
@@ -13,7 +24,7 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 # Use this for production
 sass:
     style: compressed
-exclude: [ README.md, LICENSE]
+exclude: [ README.md, LICENSE, collections/templates]
 
 # Collection Management
 collections_dir: collections

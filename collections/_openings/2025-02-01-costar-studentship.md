@@ -1,9 +1,11 @@
 ---
 layout: job
 title: PhD Studentship - Single view human reconstruction in large uncontrolled environments
+description: Fully funded PhD studentship on single-view human reconstruction for creative industry applications.
+image: /images/other/alive_banner.png
 expiryDate: 2025-02-2
 ---
-<img src="/images/other/alive_banner.png" alt="" width="100%">
+<img src="{{ '/images/other/alive_banner.png' | relative_url }}" alt="" width="100%">
 
 ## {{page.title}}
 
@@ -44,4 +46,3 @@ Our Centre is ranked number one for Computer Vision in the UK and it is one of t
 
 #### Postgraduate research with CVSSP
 CVSSP promotes an exciting, supportive, and inclusive research environment. Secondments with industry and international groups are encouraged during the PhD to broaden experience and to ensure research is kept relevant to real-world problems. Our PhD researchers contribute to advancing the state-of-the art through publication and by participating in leading international forums. The Postgraduate Research Experience Survey (PRES) 2018 ranked the University of Surrey 7th in the UK out of 63 and 4th for retention and completion.
-

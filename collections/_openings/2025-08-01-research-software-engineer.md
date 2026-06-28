@@ -1,9 +1,11 @@
 ---
 layout: job
 title: Research Software Engineer
+description: Research Software Engineer role in visual media production technologies at the University of Surrey.
+image: /images/other/alive_banner.png
 expiryDate: 2025-06-08
 ---
-<img src="/images/other/alive_banner.png" alt="" width="100%">
+<img src="{{ '/images/other/alive_banner.png' | relative_url }}" alt="" width="100%">
 
 # Research Software Engineer
 The University of Surrey is a global community of ideas and people, dedicated to life-changing education and research. 

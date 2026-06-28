@@ -1,0 +1,27 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{% assign public_pages = site.pages | where_exp: "page", "page.url != '/sitemap.xml' and page.url != '/robots.txt'" %}
+{% for page in public_pages %}
+{% unless page.path contains 'collections/templates' %}
+  <url>
+    <loc>{{ site.production_url }}{{ page.url | replace: 'index.html', '' }}</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+  </url>
+{% endunless %}
+{% endfor %}
+{% for post in site.blog %}
+  <url>
+    <loc>{{ site.production_url }}{{ post.url }}</loc>
+    <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+  </url>
+{% endfor %}
+{% for opening in site.openings %}
+  <url>
+    <loc>{{ site.production_url }}{{ opening.url }}</loc>
+    <lastmod>{{ opening.date | date_to_xmlschema }}</lastmod>
+  </url>
+{% endfor %}
+</urlset>

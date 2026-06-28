@@ -1,9 +1,11 @@
 ---
 layout: default
 title: Openings
+description: Current and previous research openings, PhD studentships and research software engineering roles with Marco Volino at the University of Surrey.
+image: /images/other/alive_banner.png
 ---
 
-<img src="/images/other/alive_banner.png" alt="" width="100%">
+<img src="{{ '/images/other/alive_banner.png' | relative_url }}" alt="" width="100%">
 
 <h2>Current</h2>
 <div class="container" id="jobs-open">

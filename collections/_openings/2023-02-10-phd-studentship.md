@@ -1,9 +1,11 @@
 ---
 layout: job
 title: PhD Studentship - Computer Vision, Graphics and Machine Learning
+description: Fully funded PhD studentship in computer vision, graphics and machine learning at the University of Surrey.
+image: /images/other/alive_banner.png
 expiryDate: 2023-07-01
 ---
-<img src="/images/other/alive_banner.png" alt="" width="100%">
+<img src="{{ '/images/other/alive_banner.png' | relative_url }}" alt="" width="100%">
 
 ## {{page.title}}
 

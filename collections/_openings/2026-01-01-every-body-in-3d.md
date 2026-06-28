@@ -1,9 +1,11 @@
 ---
 layout: job
 title: PhD Studentship - Every Body in 3D (CoSTAR)
+description: Fully funded PhD studentship on inclusive single-view 3D human reconstruction for diverse bodies and accessible digital avatars.
+image: /images/other/alive_banner.png
 expiryDate: 2026-03-06
 ---
-<img src="/images/other/alive_banner.png" alt="" width="100%">
+<img src="{{ '/images/other/alive_banner.png' | relative_url }}" alt="" width="100%">
 
 ## {{page.title}}
 
