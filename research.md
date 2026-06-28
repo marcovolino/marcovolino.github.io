@@ -1,8 +1,9 @@
 ---
 layout: default
+title: Research
 ---
 
-<img src="/images/other/research.png" alt="" width="100%">
+<img src="{{ '/images/other/research.png' | relative_url }}" alt="" width="100%">
 
 
 # Research
@@ -22,14 +23,14 @@ layout: default
 	<tbody>
 		{% for project in site.projects reversed %}
 		<tr>
-			<td><img src="{{site.url}}/{{project.image}}" alt="" width="100%" height="auto" /></td>
+			<td><img src="{{ project.image | prepend: '/' | relative_url }}" alt="" width="100%" height="auto" /></td>
 			<td>
 				<b>{{project.title}}</b><br>
 				<em>{{project.note}}</em><br>
 					{{project.duration}}<br>
 				<div class="btn-toolbar">
 					{% for link in project.links %}
-					<a class="btn btn-primary btn-xs" target="_blank" href="{{link.url}}">{{link.name}}</a>
+					<a class="btn btn-primary btn-xs" target="_blank" rel="noopener" href="{{link.url}}">{{link.name}}</a>
 					{% endfor%}
 			  </div>
 			</td>
@@ -47,7 +48,7 @@ layout: default
     {% assign papers_by_year = site.publications | reverse %}
     {% for paper in papers_by_year %}
     <tr>
-        <td><img src="{{site.url}}/{{paper.image}}" alt="" width="100%" height="auto" /></td>
+        <td><img src="{{ paper.image | prepend: '/' | relative_url }}" alt="" width="100%" height="auto" /></td>
         <td>
             <b>{{paper.title}}</b><br>
             <em>{{paper.authors}}</em><br>
@@ -57,9 +58,9 @@ layout: default
                 {% for link in paper.links %}
                     {% assign url = link.url %}
                     {% if url contains '://' %}
-                        <a class="btn btn-primary btn-xs" target="_blank" href="{{link.url}}">{{link.name}}</a>
+                        <a class="btn btn-primary btn-xs" target="_blank" rel="noopener" href="{{link.url}}">{{link.name}}</a>
                     {% else %}
-                        <a class="btn btn-primary btn-xs" target="_blank" href="{{site.url}}/{{link.url}}">{{link.name}}</a>
+                        <a class="btn btn-primary btn-xs" target="_blank" rel="noopener" href="{{ link.url | prepend: '/' | relative_url }}">{{link.name}}</a>
                     {% endif %}
                 {% endfor %}
                 {% if paper.headline %}<b class="highlight btn btn-primary btn-xs "> {{ paper.headline}} </b>{% endif %}
@@ -82,7 +83,7 @@ layout: default
             <tr>
                 <td>
                 {% if people.linkedin %}
-                    <b><a href="{{people.linkedin}}" target="_blank">{{people.name}}</a></b>
+                    <b><a href="{{people.linkedin}}" target="_blank" rel="noopener">{{people.name}}</a></b>
                 {% else %}
                 <b>{{people.name}}</b>
                 {% endif %}
@@ -95,7 +96,7 @@ layout: default
                 <td>
                 <p><em>Position: {{people.position}}</em></p>
                 {% if people.thesis-url %}
-                    <p><em>Topic: <a href="{{people.thesis-url}}" target="_blank">{{people.topic}}</a></em></p>
+                    <p><em>Topic: <a href="{{people.thesis-url}}" target="_blank" rel="noopener">{{people.topic}}</a></em></p>
                 {% else %}
                     <p><em>Topic: {{people.topic}}</em></p>
                 {% endif %}
@@ -118,14 +119,14 @@ layout: default
 	<tbody>
 		{% for event in site.service reversed %}
 		<tr>
-			<td><img src="{{site.url}}/{{event.image}}" alt="" width="100%" height="auto" /></td>
+			<td><img src="{{ event.image | prepend: '/' | relative_url }}" alt="" width="100%" height="auto" /></td>
 			<td>
 				<b>{{event.title}}</b><br>
 				<em>{{event.location}}</em><br>
 					{{event.role}}<br>
 				<div class="btn-toolbar">
 					{% for link in event.links %}
-					<a class="btn btn-primary btn-xs" target="_blank" 
+					<a class="btn btn-primary btn-xs" target="_blank" rel="noopener" 
 					href="{{ link.url }}">{{ link.name }}</a>
 					{% endfor%}
 			  </div>
