@@ -1,5 +1,6 @@
 ---
 layout: default
+title: CV
 ---
 
 <h2>Marco Volino</h2>
@@ -28,7 +29,7 @@ He has designed, developed, and deployed a range of synchronised camera systems,
     <td>
 {% for skill in section.nested %}
    {% if skill.url != "" %}
-        <a href="{{skill.url}}" target="_blank">{{ skill.title}}</a>
+        <a href="{{skill.url}}" target="_blank" rel="noopener">{{ skill.title}}</a>
     {% else %}
         {{ skill.title}}
    {% endif %}
@@ -55,7 +56,7 @@ He has designed, developed, and deployed a range of synchronised camera systems,
                 <em>{{experience.duration}}</em><br>
                 {{ experience.content | markdownify }}
 			</td>
-            <td valign="top"><img src="{{site.url}}/{{experience.image}}" alt="" width="80px" height="auto" /></td>         
+            <td valign="top"><img src="{{ experience.image | prepend: '/' | relative_url }}" alt="" width="80px" height="auto" /></td>         
 		</tr>
 		{% endfor %}
 	</tbody>
@@ -78,7 +79,7 @@ He has designed, developed, and deployed a range of synchronised camera systems,
                 <em>{{experience.duration}}</em><br>
                 {{ experience.content | markdownify }}
             </td>
-            <td valign="top"><img src="{{site.url}}/{{experience.image}}" alt="" width="80px" height="auto" /></td>         
+            <td valign="top"><img src="{{ experience.image | prepend: '/' | relative_url }}" alt="" width="80px" height="auto" /></td>         
         </tr>
         {% endfor %}
     </tbody>
