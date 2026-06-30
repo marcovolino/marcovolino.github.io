@@ -37,6 +37,7 @@ image: /images/cv/marco.jpg
 		</div>
 	</div>
 </div>
+
 <hr>
 
 <h2 id="news">News</h2>
