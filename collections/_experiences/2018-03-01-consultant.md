@@ -1,9 +1,9 @@
 ---
 title: Consultant Research Engineer
-institute: Generative AI Startup
-duration: March 2015 - May 2015
+institute: Synthesia
+duration: March 2018 - May 2018
 ---
 
-- Designed, developed and deployed a portable synchronised audio-visual camera system for a generative AI startup focused on creating digital humans.
+- Designed, developed and deployed a portable synchronised audio-visual camera system for capturing human facial performance.
 - Developed software tools to automatically compute camera calibration for use in 3D reconstruction.
 - Documented and demonstrated the setup and operation of both hardware and software systems to intended users within the company.
