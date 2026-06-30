@@ -1,6 +1,6 @@
 
             <!-- CONTACT SECTION START -->
-            <div class="container" id="contact">
+            <div class="container contact-panel" id="contact">
         
                 <!-- HEADER-->
                 <h3>Contact</h3>
@@ -8,13 +8,10 @@
                 <!-- ONLINE CONTACTS -->
                 <div class="container" id="online">
                     
-                    <h4>Online</h4>
-                    
                     <p>Feel free to drop me an email at <b>m [dot] volino [at] surrey [dot] ac [dot] uk</b>.</p>
                     
                     <!-- SOCIAL MEDIA -->
                     <div>
-                        <p>You can also find me on the following platforms:</p>
                         <ul id ="social-media" class="list-group list-group-horizontal justify-content-center">
                             {% for item in site.data.nav.social %}
                             <li class="list-group-item"><a href="{{ item.link}}" target="_blank" rel="noopener" class="{{ item.icon}}" aria-label="{{ item.name }}"></a></li>
@@ -27,7 +24,6 @@
                 <!-- MAP SECTION: EMBEDED GOOGLE MAP -->
                 <div class="container" id="map">
 
-                    <h4>Map</h4>
                     <div class="gmap_canvas">
                         <iframe width="800" height="300" id="gmap_canvas" title="Map to the Centre for Vision, Speech and Signal Processing" src="https://maps.google.com/maps?q=Centre for vision speech and signal processing&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" loading="lazy">
                         </iframe>
