@@ -5,7 +5,7 @@ description: Research projects, publications, collaborators and community servic
 image: /images/other/research.png
 ---
 
-<img src="{{ '/images/other/research.png' | relative_url }}" alt="" width="100%">
+<img class="page-banner" src="{{ '/images/other/research.png' | relative_url }}" alt="" width="100%">
 
 
 # Research
@@ -20,7 +20,7 @@ image: /images/other/research.png
 
 <h3>Projects</h3>
 <div class="container" id="projects">
-<table>
+<table class="media-list">
 	<col width="150">
 	<tbody>
 		{% for project in site.projects reversed %}
@@ -44,7 +44,7 @@ image: /images/other/research.png
 
 <h3>Publications</h3>
 <div class="container" id="publications">
-<table>
+<table class="media-list publication-list">
 	<col width="150">
 	<tbody>
     {% assign papers_by_year = site.publications | reverse %}
@@ -78,7 +78,7 @@ image: /images/other/research.png
 <h3>Team</h3>
 <div class="container" id="team">
     <p> I have been fortunate enough to work with the following people:</p>
-    <table>
+    <table class="team-list">
         <tbody>
             {% assign people_sorted = site.team | sort: "duration"%}
             {% for people in people_sorted reversed %}
@@ -116,7 +116,7 @@ image: /images/other/research.png
 <div class="container" id="service">
 <p>I have been involved in the organisation of the following conferences/meetings/workshops:</p>
 
-<table>
+<table class="media-list service-list">
 	<col width="150">
 	<tbody>
 		{% for event in site.service reversed %}
