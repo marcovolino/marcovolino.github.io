@@ -8,18 +8,23 @@ image: /images/cv/marco.jpg
 
 <!-- BIO SECTION -->
 <div class="container" id="bio">
+	<div id="bio_intro">
+		<!-- BIO IMAGE -->
+		<div id="bio_image">
+			<img class="img-circle" id="profile" src="images/cv/marco.jpg" alt="marco" hspace="20" width="150" height="150">
+		</div>
 
-	<!-- BIO IMAGE -->
-	<div id="bio_image">
-		<img class="img-circle" id="profile" src="images/cv/marco.jpg" alt="marco" hspace="20" width="150" height="150">
+		<!-- LEAD TEXT -->
+		<div id="bio_lead">
+			<h1>Marco Volino</h1>
+			<p class="lead">
+				Senior Lecturer in Computer Vision and Graphics at the University of Surrey, working on visual computing for digital humans, volumetric video, neural rendering and immersive media production.
+			</p>
+		</div>
 	</div>
-	
+
 	<!-- BIO TEXT -->
 	<div id="bio_text">
-		<h1>Marco Volino</h1>
-		<p class="lead">
-			Senior Lecturer in Computer Vision and Graphics at the University of Surrey, working on visual computing for digital humans, volumetric video, neural rendering and immersive media production.
-		</p>
 		<p>
 			Marco is based in the <a href="https://www.surrey.ac.uk/centre-vision-speech-signal-processing" target="_blank" rel="noopener">Centre for Vision, Speech and Signal Processing</a> and is a Principal AI Fellow at the <a href="https://www.surrey.ac.uk/ai" target="_blank" rel="noopener">Surrey Institute for People-Centred AI</a>. His research bridges computer vision, computer graphics and machine learning for creative industry applications across film, broadcast, games, virtual production and extended reality.
 		</p>

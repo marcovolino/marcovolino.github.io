@@ -1,47 +1,65 @@
-
-
 /*
- * Main Body
+ * Base
  */
+:root
+{
+    --bg: #ffffff;
+    --surface: #ffffff;
+    --surface-soft: #f4f1ec;
+    --ink: #1f2428;
+    --muted: #626b73;
+    --line: #ded8cf;
+    --accent: #176f7d;
+    --accent-dark: #0f4f59;
+    --accent-soft: #e7f2f3;
+}
+
 body
 {
-    background: #fff;
+    background: var(--bg);
     margin: 0;
     padding: 0;
     border: 0;
     vertical-align: baseline;
-    padding-top: 70px;
-    color: #222;
+    padding-top: 76px;
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.65;
 }
 
-/*
- * Horizontal Line
- */
+a
+{
+    color: var(--accent);
+    text-decoration: none;
+}
+
+a:hover,
+a:focus
+{
+    color: var(--accent-dark);
+    text-decoration: underline;
+}
+
 hr
 {
     display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
-    border-color:white;
+    margin: 28px auto;
+    border: 0;
+    border-top: 1px solid var(--line);
 }
 
 /*
- * Container
+ * Layout and typography
  */
 .container
 {
     position: relative;
     margin: 0 auto;
     width: 100%;
-    max-width: 800px;
-    padding-left: 16px;
-    padding-right: 16px;
+    max-width: 860px;
+    padding-left: 18px;
+    padding-right: 18px;
 }
 
 .container p
@@ -53,159 +71,362 @@ hr
 .container h1
 {
     margin-top: 0;
-    margin-bottom: 8px;
-    font-size: 34px;
-    line-height: 1.2;
+    margin-bottom: 10px;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.15;
 }
 
 .container h2
 {
-    margin-top: 28px;
+    margin-top: 34px;
+    margin-bottom: 16px;
+    font-size: 26px;
+    font-weight: 650;
+}
+
+.container h3
+{
+    margin-top: 32px;
+    margin-bottom: 14px;
+    font-size: 21px;
+    font-weight: 650;
+}
+
+.container h4
+{
+    font-size: 17px;
+    font-weight: 650;
 }
 
 .lead
 {
-    color: #444;
-    font-size: 19px;
-    line-height: 1.45;
+    color: #384148;
+    font-size: 20px;
+    line-height: 1.5;
 }
 
-/**
- * Button Style
+/*
+ * Navigation
  */
-.btn, .btn-primary, .btn-primary:active, .btn-primary:visited
+.navbar-inverse
 {
-    background: #222;
-    border-color:#222;
-    color:#9c9c9c;
+    background: rgba(31, 36, 40, 0.96);
+    border: 0;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.18);
 }
 
-.btn-primary:hover
+.navbar-inverse .navbar-brand
 {
-    background: #222;
-    border-color:#222;
-    color:#fff;
+    color: #ffffff;
+    font-weight: 650;
 }
 
-/**
- * Button Style
+.navbar-inverse .navbar-nav > li > a
+{
+    color: #d8dddf;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus
+{
+    color: #ffffff;
+}
+
+/*
+ * Buttons
  */
-.highlight
+.btn,
+.btn-primary,
+.btn-primary:active,
+.btn-primary:visited
 {
-    background: #fff;
-    border-color:#fff;
-    color:#f00;
-    font-weight: bold;
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #ffffff;
+    border-radius: 4px;
+    font-weight: 600;
 }
-.highlight:hover
+
+.btn-primary:hover,
+.btn-primary:focus
 {
-    background: #fff;
-    border-color:#fff;
-    color:#f00;
-    font-weight: bold;
+    background: var(--accent-dark);
+    border-color: var(--accent-dark);
+    color: #ffffff;
 }
-.highlight:focus
+
+.btn-xs
 {
-    background: #fff;
-    border-color:#fff;
-    color:#f00;
-    font-weight: bold;
+    margin-top: 6px;
+    margin-right: 4px;
 }
+
+.highlight,
+.highlight:hover,
+.highlight:focus,
 .highlight:active
 {
-    background: #fff;
-    border-color:#fff;
-    color:#f00;
-    font-weight: bold;
+    background: var(--surface-soft);
+    border-color: var(--surface-soft);
+    color: #9a3412;
+    font-weight: 700;
 }
+
 /*
- * Bio
+ * Homepage
  */
 #bio
 {
-  display: flex;
-  align-items: flex-start;
-  gap: 22px;
-  overflow: hidden;
+    display: block;
+    padding-top: 8px;
 }
 
 #bio div
 {
-   padding: 10px;
+    padding: 0;
+}
+
+#bio_intro
+{
+    display: flex;
+    align-items: flex-start;
+    gap: 28px;
+    margin-bottom: 18px;
 }
 
 #bio_image
 {
-    flex: 0 0 180px;
-    text-align:center;
-    width: 180px;
-    margin: 0;
+    flex: 0 0 178px;
+    text-align: center;
+    width: 178px;
+    margin: 4px 0 0;
     display: block;
 }
+
+#bio_image img
+{
+    width: 156px;
+    height: 156px;
+    object-fit: cover;
+    border: 4px solid var(--surface);
+    box-shadow: 0 10px 26px rgba(31, 36, 40, 0.12);
+}
+
+#bio_lead
+{
+    flex: 1 1 auto;
+    overflow: hidden;
+    margin: 0;
+    min-width: 0;
+}
+
 #bio_text
 {
-  flex: 1 1 auto;
-  overflow: hidden;
-  margin: 0;
-  min-width: 0;
+    clear: both;
 }
 
 .homepage-actions
 {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 18px;
+}
+
+.focus-strip
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 24px;
+}
+
+.focus-strip span
+{
+    display: inline-block;
+    padding: 5px 10px;
+    background: var(--accent-soft);
+    color: var(--accent-dark);
+    border: 1px solid #c6e0e3;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 650;
 }
 
 .news-list ul
 {
-  padding-left: 22px;
+    padding-left: 0;
+    list-style: none;
 }
 
 .news-list li
 {
-  margin-bottom: 8px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--line);
 }
 
-.fab
+.news-list li:last-child
 {
-    padding: 20px;
-    font-size: 25px;
-    width: 25px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
+    border-bottom: 0;
+}
+
+/*
+ * Research and list pages
+ */
+.page-banner
+{
+    display: block;
+    margin-bottom: 28px;
+    border-radius: 6px;
+    box-shadow: 0 14px 34px rgba(31, 36, 40, 0.12);
+}
+
+table
+{
+    width: 100%;
 }
 
 tr td
 {
-  padding-bottom: 10px;
-  padding-right: 10px;
-  vertical-align: top;
+    padding-bottom: 12px;
+    padding-right: 12px;
+    vertical-align: top;
 }
 
-/* Add a hover effect if you want */
-.fab:hover {
-    opacity: 0.8;
-}
-
-/* Add spacing between social media icons */
-#social-media li
+.media-list
 {
-    margin: 0 10px 0 0;
+    border-collapse: separate;
+    border-spacing: 0 14px;
+}
+
+.media-list tr
+{
+    background: var(--surface);
+    box-shadow: 0 1px 0 var(--line);
+}
+
+.media-list td
+{
+    padding: 14px 14px 14px 0;
+}
+
+.media-list td:first-child
+{
+    width: 150px;
+    padding-left: 14px;
+}
+
+.media-list td:first-child img
+{
+    width: 132px;
+    max-height: 96px;
+    object-fit: contain;
+}
+
+.media-list b
+{
+    font-size: 16px;
+}
+
+.media-list em
+{
+    color: var(--muted);
+}
+
+.team-list
+{
+    border-collapse: collapse;
+}
+
+.team-list td
+{
+    border-bottom: 1px solid var(--line);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.team-list p
+{
+    margin-bottom: 4px;
 }
 
 /*
- * Sizing of Google maps
+ * Contact and footer
  */
+.contact-panel
+{
+    margin-top: 30px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    border-top: 1px solid var(--line);
+}
+
+.contact-panel h3
+{
+    margin-top: 0;
+}
+
+.contact-panel #online
+{
+    margin-bottom: 14px;
+}
+
+.fab
+{
+    padding: 10px;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: var(--surface);
+    border: 1px solid var(--line);
+}
+
+.fab:hover,
+.fab:focus
+{
+    opacity: 1;
+    background: var(--accent-soft);
+    text-decoration: none;
+}
+
+#social-media
+{
+    margin-top: 8px;
+}
+
+#social-media li
+{
+    margin: 0 8px 8px 0;
+}
+
+.list-group-horizontal .list-group-item,
+.list-group-horizontal .list-group-item:first-child,
+.list-group-horizontal .list-group-item:last-child
+{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+}
+
 .gmap_canvas
 {
     position: relative;
-    padding-bottom: 50%;
+    padding-bottom: 28%;
     height: 0;
     overflow: hidden;
+    border: 1px solid var(--line);
+    border-radius: 6px;
 }
+
 .gmap_canvas iframe
 {
     position: absolute;
@@ -217,93 +438,13 @@ tr td
 
 footer
 {
-    min-height:50px;
+    min-height: 50px;
+    color: var(--muted);
 }
 
 /*
- * Responsive CSS
+ * Posts
  */
-@media screen and (max-width: 600px)
-{
-   body
-   {
-    padding-top: 60px;
-   }
-
-   .container
-   {
-    padding-left: 14px;
-    padding-right: 14px;
-   }
-
-   #bio_image
-   {
-    flex: none;
-    width: auto;
-    border:0;
-    margin: auto;
-    display: block;
-  }
-
-  #bio
-  {
-    display: block;
-  }
-
-  #bio_text
-  {
-    overflow: visible;
-  }
-
-  .container h1
-  {
-    font-size: 30px;
-  }
-
-  table
-  {
-    width: 100%;
-  }
-
-  tr,
-  td
-  {
-    display: block;
-    width: 100% !important;
-  }
-
-  td img
-  {
-    max-width: 180px;
-  }
-}
-
-.list-group-horizontal .list-group-item
-{
-    display: inline-block;
-    background: #fff;
-
-}
-.list-group-horizontal .list-group-item
-{
-     margin: 0;
-     padding: 0;
-     border: 0;
-}
-.list-group-horizontal .list-group-item:first-child
-{
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-.list-group-horizontal .list-group-item:last-child
-{
-    border-top-right-radius:4px;
-    border-bottom-left-radius:0;
-    border-right-width: 1px;
-}
-
-
 .post-nav
 {
     display: flex;
@@ -314,29 +455,115 @@ footer
 
 .post-nav div
 {
-  flex: 1 1 0;
+    flex: 1 1 0;
 }
 
 .post-nav div:first-child
 {
-  padding-right: 0.5em;
+    padding-right: 0.5em;
 }
 
 .post-nav div:last-child
 {
-  padding-left: 0.5em;
-  text-align: right;
+    padding-left: 0.5em;
+    text-align: right;
 }
 
-.unsighted {
-  border: 0;
-  clip: rect(1px, 1px, 1px, 1px);
-  clip-path: inset(50%);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-  word-wrap: normal !important;
+.unsighted
+{
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    word-wrap: normal !important;
+}
+
+/*
+ * Responsive CSS
+ */
+@media screen and (max-width: 600px)
+{
+    body
+    {
+        padding-top: 62px;
+        font-size: 15px;
+    }
+
+    .container
+    {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+
+    .container h1
+    {
+        font-size: 31px;
+    }
+
+    .lead
+    {
+        font-size: 18px;
+    }
+
+    #bio_intro
+    {
+        display: block;
+    }
+
+    #bio_image
+    {
+        width: auto;
+        margin: 0 0 18px;
+    }
+
+    #bio_lead
+    {
+        overflow: visible;
+    }
+
+    .media-list,
+    .media-list tbody,
+    .media-list tr,
+    .media-list td,
+    tr,
+    td
+    {
+        display: block;
+        width: 100% !important;
+    }
+
+    .media-list
+    {
+        border-spacing: 0;
+    }
+
+    .media-list tr
+    {
+        margin-bottom: 14px;
+        padding: 12px;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+    }
+
+    .media-list td,
+    .media-list td:first-child
+    {
+        padding: 0 0 10px;
+    }
+
+    .media-list td:first-child img
+    {
+        max-width: 180px;
+        width: 100%;
+    }
+
+    .gmap_canvas
+    {
+        padding-bottom: 46%;
+    }
 }

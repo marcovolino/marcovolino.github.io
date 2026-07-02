@@ -5,7 +5,7 @@ description: Research projects, publications, collaborators and community servic
 image: /images/other/research.png
 ---
 
-<img class="page-banner" src="{{ '/images/other/research.png' | relative_url }}" alt="" width="100%">
+<img src="{{ '/images/other/research.png' | relative_url }}" alt="" width="100%">
 
 
 # Research
