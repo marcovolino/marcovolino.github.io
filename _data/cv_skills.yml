@@ -59,11 +59,11 @@
    nested:
    - title: "CMake"
      url: ""
+   - title: "Docker"
+     url: "https://www.docker.com/"
    - title: "Eclipse"
      url: ""
    - title: "Git"
-     url: ""
-   - title: "SVN"
      url: ""
    - title: "Visual Studio"
      url: ""
@@ -104,6 +104,8 @@
  - title : "OS and Misc"
    nested:
    - title: "Linux (Ubuntu)"
+     url: ""
+   - title: "MacOS"
      url: ""
    - title: "Windows"
      url: ""
