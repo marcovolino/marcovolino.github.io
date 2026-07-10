@@ -1,5 +1,8 @@
 ---
 layout: default
+title: Blog
+description: Blog posts and notes from Marco Volino on computer vision, computer graphics, visual media production and academic research.
+image: /images/cv/marco.jpg
 ---
 
 
