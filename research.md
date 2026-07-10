@@ -29,7 +29,13 @@ image: /images/other/research.png
 			<td>
 				<b>{{project.title}}</b><br>
 				<em>{{project.note}}</em><br>
-					{{project.duration}}<br>
+				{% if project.role or project.value %}
+				<div class="project-meta">
+					{% if project.role %}<span><b>Role:</b> {{project.role}}</span>{% endif %}
+					{% if project.value %}<span><b>Value:</b> {{project.value}}</span>{% endif %}
+				</div>
+				{% endif %}
+                <span><b>Duration:</b> {{project.duration}}</span><br>
 				<div class="btn-toolbar">
 					{% for link in project.links %}
 					<a class="btn btn-primary btn-xs" target="_blank" rel="noopener" href="{{link.url}}">{{link.name}}</a>

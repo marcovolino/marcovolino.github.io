@@ -3,6 +3,7 @@ title: DSLR-based Photogrammetry Capture System for Digital Humans
 note: CVSSP, University of Surrey
 duration: June 2018 - September 2019
 image: images/project/photogrammetry.jpg
+role: Lead Researcher
 
 links:
   - name: Project

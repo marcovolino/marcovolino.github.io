@@ -12,9 +12,11 @@ menu:
     url: "#news"
   - title: Contact
     url: "#contact"
-
+  - title: Blog
+    url: blog
+    
 social:
-  - name: px500
+  - name: 500px
     link: "https://500px.com/marcovolino"
     icon: fab fa-500px
   - name: facebook
@@ -32,4 +34,3 @@ social:
   - name: orcid
     link: "https://orcid.org/0000-0002-1869-9257"
     icon: fab fa-orcid
-
