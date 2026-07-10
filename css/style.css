@@ -337,6 +337,21 @@ tr td
     color: var(--muted);
 }
 
+.project-meta
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 14px;
+    margin-top: 2px;
+    color: var(--muted);
+}
+
+.project-meta b
+{
+    color: var(--ink);
+    font-size: inherit;
+}
+
 .team-list
 {
     border-collapse: collapse;
