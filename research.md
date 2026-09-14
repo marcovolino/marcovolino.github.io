@@ -84,35 +84,31 @@ image: /images/other/research.png
 <h3>Team</h3>
 <div class="container" id="team">
     <p> I have been fortunate enough to work with the following people:</p>
-    <table class="team-list">
-        <tbody>
-            {% assign people_sorted = site.team | sort: "duration"%}
-            {% for people in people_sorted reversed %}
-            <tr>
-                <td>
+    <div class="team-list">
+        {% assign people_sorted = site.team | sort: "duration"%}
+        {% for people in people_sorted reversed %}
+        <article class="team-member">
+            <div class="team-member-header">
+                <h4>
                 {% if people.linkedin %}
-                    <b><a href="{{people.linkedin}}" target="_blank" rel="noopener">{{people.name}}</a></b>
+                    <a href="{{people.linkedin}}" target="_blank" rel="noopener">{{people.name}}</a>
                 {% else %}
-                <b>{{people.name}}</b>
+                    {{people.name}}
                 {% endif %}
-                </td>
-            <td>
-                <p>{{people.duration}}</p>
-            </td>
-            </tr>
-            <tr>
-                <td>
-                <p><em>Position: {{people.position}}</em></p>
+                </h4>
+                <span class="team-duration">{{people.duration}}</span>
+            </div>
+            <div class="team-member-details">
+                <p><span>Position:</span> {{people.position}}</p>
                 {% if people.thesis-url %}
-                    <p><em>Topic: <a href="{{people.thesis-url}}" target="_blank" rel="noopener">{{people.topic}}</a></em></p>
+                    <p><span>Topic:</span> <a href="{{people.thesis-url}}" target="_blank" rel="noopener">{{people.topic}}</a></p>
                 {% else %}
-                    <p><em>Topic: {{people.topic}}</em></p>
+                    <p><span>Topic:</span> {{people.topic}}</p>
                 {% endif %}
-                </td>
-            </tr>
-            {% endfor %}
-        </tbody>
-    </table>    
+            </div>
+        </article>
+        {% endfor %}
+    </div>
 </div>
 <hr>
 
