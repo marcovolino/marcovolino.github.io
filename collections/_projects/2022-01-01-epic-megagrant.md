@@ -7,6 +7,8 @@ role: Principal Investigator
 value: $50,000
 
 links:
-  - name: EPIC
-    url: https://www.unrealengine.com/en-US/megagrants
+  - name: Project
+    url: https://openvolumetric.org/
+  - name: EPIC Megagrant
+    url: https://www.unrealengine.com/blog/epic-megagrants-2022-update
 ---

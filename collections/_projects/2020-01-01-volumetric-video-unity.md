@@ -6,10 +6,8 @@ image: images/project/vv-unity.png
 role: Lead Researcher
 
 links:
-  - name: Project (coming soon)
-    url: https://marcovolino.github.io/volumetric-video-unity
-  - name: GitHub (coming soon)
-    url: https://github.com/marcovolino/volumetric-video-unity
+  - name: Project
+    url: https://openvolumetric.org/
 ---
 
 
